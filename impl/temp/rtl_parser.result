@@ -1,0 +1,80 @@
+[
+ {
+  "InstFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/main.v",
+  "InstLine" : 1,
+  "InstName" : "top",
+  "ModuleFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/main.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/main.v",
+    "InstLine" : 39,
+    "InstName" : "sha",
+    "ModuleFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/sha256.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "sha256",
+    "SubInsts" : [
+     {
+      "InstFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/sha256.v",
+      "InstLine" : 16,
+      "InstName" : "m1",
+      "ModuleFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/sha256.v",
+      "ModuleLine" : 131,
+      "ModuleName" : "message_scheduler_and_compressor",
+      "SubInsts" : [
+       {
+        "InstFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/sha256.v",
+        "InstLine" : 147,
+        "InstName" : "c1",
+        "ModuleFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/sha256.v",
+        "ModuleLine" : 236,
+        "ModuleName" : "compressor"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/main.v",
+    "InstLine" : 43,
+    "InstName" : "rx",
+    "ModuleFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/uart.v",
+    "ModuleLine" : 46,
+    "ModuleName" : "uart_rx"
+   },
+   {
+    "InstFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/main.v",
+    "InstLine" : 44,
+    "InstName" : "tx",
+    "ModuleFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/uart.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart_tx"
+   },
+   {
+    "InstFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/main.v",
+    "InstLine" : 46,
+    "InstName" : "scr",
+    "ModuleFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/screen.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "screen"
+   },
+   {
+    "InstFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/main.v",
+    "InstLine" : 48,
+    "InstName" : "row",
+    "ModuleFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/rows.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uartTextRow"
+   },
+   {
+    "InstFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/main.v",
+    "InstLine" : 49,
+    "InstName" : "te",
+    "ModuleFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/text.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "textEngine"
+   }
+  ]
+ }
+]

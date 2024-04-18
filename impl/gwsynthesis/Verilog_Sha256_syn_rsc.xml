@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="57" Alu="6" Lut="344">
+ <SubModule name="sha" Register="1120" Alu="61" Lut="669">
+  <SubModule name="m1" Register="1033" Alu="358" Lut="1097">
+   <SubModule name="c1" Alu="224" Lut="395"/>
+  </SubModule>
+ </SubModule>
+ <SubModule name="rx" Register="28" Lut="53"/>
+ <SubModule name="tx" Register="37" Lut="57"/>
+ <SubModule name="scr" Register="61" Alu="9" Lut="134"/>
+ <SubModule name="row" Register="456" Alu="5" Lut="372"/>
+ <SubModule name="te" Lut="9" Bsram="1"/>
+</Module>

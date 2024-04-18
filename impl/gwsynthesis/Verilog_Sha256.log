@@ -1,0 +1,54 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'C:\Users\Emerson\Documents\Verilog_Sha256_test\src\main.v'
+Analyzing Verilog file 'C:\Users\Emerson\Documents\Verilog_Sha256_test\src\rows.v'
+Analyzing Verilog file 'C:\Users\Emerson\Documents\Verilog_Sha256_test\src\screen.v'
+Analyzing Verilog file 'C:\Users\Emerson\Documents\Verilog_Sha256_test\src\sha256.v'
+Analyzing Verilog file 'C:\Users\Emerson\Documents\Verilog_Sha256_test\src\text.v'
+Analyzing Verilog file 'C:\Users\Emerson\Documents\Verilog_Sha256_test\src\uart.v'
+Compiling module 'top'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\main.v":1)
+Compiling module 'sha256'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\sha256.v":1)
+Compiling module 'message_scheduler_and_compressor'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\sha256.v":131)
+Compiling module 'compressor'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\sha256.v":236)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\sha256.v":215)
+Compiling module 'uart_rx'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\uart.v":46)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\uart.v":88)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\uart.v":92)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\uart.v":101)
+WARN  (EX3791) : Expression size 14 truncated to fit in target size 13("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\uart.v":109)
+Compiling module 'uart_tx'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\uart.v":1)
+WARN  (EX3791) : Expression size 26 truncated to fit in target size 25("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\uart.v":19)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\uart.v":39)
+Compiling module 'screen(STARTUP_WAIT=32'b00000000100110001001011010000000)'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\screen.v":1)
+WARN  (EX3780) : Using initial value of 'startupCommands' since it is never assigned("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\screen.v":36)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\screen.v":120)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\screen.v":132)
+WARN  (EX1998) : Net 'commandIndex[2]' does not have a driver("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\screen.v":75)
+Compiling module 'uartTextRow'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\rows.v":1)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\rows.v":35)
+Compiling module 'textEngine'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\text.v":1)
+Extracting RAM for identifier 'fontBuffer'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\text.v":8)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\main.v":58)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 24("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\main.v":59)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\main.v":70)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\main.v":96)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "C:\Users\Emerson\Documents\Verilog_Sha256_test\impl\gwsynthesis\Verilog_Sha256.vg" completed
+[100%] Generate report file "C:\Users\Emerson\Documents\Verilog_Sha256_test\impl\gwsynthesis\Verilog_Sha256_syn.rpt.html" completed
+GowinSynthesis finish

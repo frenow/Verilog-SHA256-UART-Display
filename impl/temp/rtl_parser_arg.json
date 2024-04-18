@@ -1,0 +1,37 @@
+{
+ "Device" : "GW2AR-18C",
+ "Files" : [
+  {
+   "Path" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/main.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/rows.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/screen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/sha256.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/text.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/uart.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
