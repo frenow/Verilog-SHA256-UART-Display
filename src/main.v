@@ -45,7 +45,7 @@ module top #(parameter STARTUP_WAIT = 32'd10000000)
 
    screen #(STARTUP_WAIT) scr(.clk(CLK), .ioSclk(ioSclk), .ioSdin(ioSdin), .ioCs(ioCs), .ioDc(ioDc), .ioReset(ioReset), .pixelAddress(pixelAddress), .pixelData(textPixelData)); //inicializa tela
    assign rowNumber = charAddress[5:4]; //posiciona a linha da impressao na memoria
-   uartTextRow row(.clk(CLK), .byteReady(send), .data(char), .outputCharIndex(charAddress[3:0]), .outByte1(charOut1), .outByte2(charOut2), .outByte3(charOut3), .outByte4(charOut4)); //prepara linha
+   textRow row(.clk(CLK), .byteReady(send), .data(char), .outputCharIndex(charAddress[3:0]), .outByte1(charOut1), .outByte2(charOut2), .outByte3(charOut3), .outByte4(charOut4)); //prepara linha
    textEngine te(.clk(CLK), .pixelAddress(pixelAddress), .pixelData(textPixelData), .charAddress(charAddress), .charOutput(charOutput)); //escreve na tela
 
   always @(posedge CLK) 

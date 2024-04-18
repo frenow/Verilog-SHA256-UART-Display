@@ -24,7 +24,7 @@ WARN  (EX3780) : Using initial value of 'startupCommands' since it is never assi
 WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\screen.v":120)
 WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\screen.v":132)
 WARN  (EX1998) : Net 'commandIndex[2]' does not have a driver("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\screen.v":75)
-Compiling module 'uartTextRow'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\rows.v":1)
+Compiling module 'textRow'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\rows.v":1)
 WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\rows.v":35)
 Compiling module 'textEngine'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\text.v":1)
 Extracting RAM for identifier 'fontBuffer'("C:\Users\Emerson\Documents\Verilog_Sha256_test\src\text.v":8)

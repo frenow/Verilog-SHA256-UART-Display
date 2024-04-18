@@ -65,7 +65,7 @@
     "InstName" : "row",
     "ModuleFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/rows.v",
     "ModuleLine" : 1,
-    "ModuleName" : "uartTextRow"
+    "ModuleName" : "textRow"
    },
    {
     "InstFile" : "C:/Users/Emerson/Documents/Verilog_Sha256_test/src/main.v",

@@ -1,4 +1,4 @@
-module uartTextRow (
+module textRow (
     input        clk,
     input        byteReady,
     input [7:0]  data,
